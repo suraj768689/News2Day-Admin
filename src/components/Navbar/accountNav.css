@@ -1,0 +1,16 @@
+.navbar bg-body-tertiary fixed-top{
+    background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+.container-fluid{
+    background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.imgi{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

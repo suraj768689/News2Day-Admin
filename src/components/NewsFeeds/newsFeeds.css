@@ -1,0 +1,87 @@
+.news-feed-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-entry {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .news-image {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .news-details {
+    margin-top: 10px;
+  }
+  
+  .action-buttons {
+    margin-top: 10px;
+  }
+
+  
+  .action-buttons button {
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .like-share-buttons{
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  
+  /* newsFeeds.css */
+
+.like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .like-button:hover {
+    color: blue;
+  }
+  
+  .like-button.liked {
+    color: blue;
+  }
+  
+  .share-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .share-button:hover {
+    color: blue;
+  }
+  
+  .share-button.shared-hovered {
+    color: blue;
+  }
+
+  .edit:hover{
+    background-color: rgb(19, 232, 97);
+  }
+  
+  .delete:hover{
+    background-color: rgb(243, 85, 58);
+  }
+  
+  @media screen and (max-width: 480px) {
+    .news-entry {
+      width: 100%; /* Adjust width for mobile screens */
+    }
+  }
+  
